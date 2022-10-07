@@ -1,0 +1,58 @@
+.nav-bar
+{
+    height: 60px;
+    width: 180px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    position: fixed; /* position fixed, top bottom all works */ 
+    left: 50%;
+    background-color: #ff5906;
+}
+
+.div1
+{
+    border: 3px solid rgb(0, 0, 1);
+    padding: 5px;
+    position: static; /* normal position, top,bottom, left,right does not work */ 
+    background-color: blue;
+    color: white;
+    text-align: justify;
+}
+
+
+.div2
+{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    position: relative; /* take position using main body, all works */ 
+    /* left: 20px; */
+    top: 20px;
+    /* right: 100px; */
+    background-color: red;
+    color: white;
+    text-align: justify;
+}
+
+
+.div3
+{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    position: relative; /* take position using main body, all works */ 
+    height: 500px;
+    background-color: green;
+    color: white;
+    text-align: justify;
+}
+
+
+.div4
+{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    position: absolute; /* take position using another div like here div3, all works */ 
+    left: 50%; 
+    top: 50%;
+    background-color: rgb(255, 0, 225);  
+    color: white; 
+}
